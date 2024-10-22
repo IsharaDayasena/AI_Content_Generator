@@ -17,10 +17,10 @@ import { Copy } from "lucide-react";
 
 export interface AIOutputData {
   id: number;
-  formData: string;
+  formData: string | null;
   templateSlug: string;
-  aiResponse: string;
-  createdBy:string;
+  aiResponse: string ;
+  createdBy: string | null;
   createdAt: string | Date;
 }
 

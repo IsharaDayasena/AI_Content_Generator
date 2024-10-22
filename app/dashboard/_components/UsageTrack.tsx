@@ -12,7 +12,8 @@ function UsageTrack() {
   const GetData = async () => {
     try {
       console.log("Fetching all AIOutput data...");
-      const result: AIOutputData[] = await db.select().from(AIOutput); // Fetch all data
+      const result = (await db.select().from(AIOutput)) as AIOutputData[];
+
       console.log("Fetched AIOutput Data:", result); // Log fetched data
       GetTotalUsage(result);
     } catch (error) {
