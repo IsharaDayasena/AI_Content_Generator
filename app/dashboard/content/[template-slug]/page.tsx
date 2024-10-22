@@ -58,7 +58,7 @@ function CreateNewContent(props: PROPS) {
       formData: formData,
       templateSlug: slug,
       aiResponse: aiResp,
-      createdAt: new Date(),
+      createdAt:new Date().toISOString(),
     });
     console.log(result);
   };
