@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 AI Content Generator
 
-## Getting Started
+An AI-powered content generation web application that helps users create high-quality content using advanced AI models.
 
-First, run the development server:
+## 🌍 Live Demo
+🚀 [AI Content Generator](https://ai-content-generator-s5mf.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Features
+✅ Generate AI-powered content  
+✅ User authentication with Clerk  
+✅ Supports text generation with Gemini AI  
+✅ Responsive UI with Tailwind CSS  
+✅ Database integration using PostgreSQL & Drizzle ORM  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
+![AI Content Generator](https://your-image-link.com) <!-- Add a relevant screenshot here -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Tech Stack
+- **Frontend**: Next.js, React, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: PostgreSQL, Drizzle ORM  
+- **Authentication**: Clerk  
+- **AI Model**: Gemini AI  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 API Endpoints
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `POST` | `/generate` | Generate AI-powered content |
+| `POST` | `/login` | User authentication |
+| `GET`  | `/content` | Fetch generated content history |
 
-## Learn More
+## 🚀 Getting Started
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-username/ai-content-generator.git
+cd ai-content-generator
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📧 Contact
+For support, contact isharahansani235@gmail.com.
